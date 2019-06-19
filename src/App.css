@@ -1,0 +1,92 @@
+
+
+
+
+
+.Main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+#logo-header{
+  width:5em;
+}
+.cardimg{
+  width:100% !important;
+}
+.svg{
+  display: flex;
+  flex-flow: wrap;
+  justify-Content: space-between;
+}
+.select-country{ 
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  outline: 0;
+  border: 0;
+  background: #3d83df;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  color: #333;
+  background: #fff;
+  font-weight: 600;
+  letter-spacing: .04em;
+  font-size: .75rem;
+  text-align: center;
+  text-decoration: none !important;
+  transition: all .2s ease 0s;
+  cursor: pointer;
+  width: 150px;
+  display: flex;
+  height: 45px;
+  padding: 5px;
+  border-radius: 10px;
+}
+h1{
+  margin: 1em 0;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: .3px;
+  font-size: 2.125rem;
+    color: #00b39b;
+}
+.lead  {
+  margin: .8em 0;
+    line-height: 1.75;
+    font-weight: 400;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #747474;
+    font-size: 16px;
+}
+.stat-image{
+  width:50px !important;
+}
+.audience{
+  width:50%;
+  display: flex;
+    float: right;
+    overflow: hidden;
+}
+
+.stat-card{
+  width:35% !important;
+}
+#stat-card{
+  display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.side-stat{
+  text-align: center;
+    align-self: center;
+}
+.container-openings{
+  display: flex;
+  flex-flow: row;
+}
+.openings{
+  display: flex;
+  width: 312px;
+  justify-content: space-between;
+}
